@@ -26,3 +26,8 @@ echo "starting...., Port 80 Akan di Hentikan Saat Proses install Cert"
 bash acme.sh --register-account -m kimochilol@gmail.com
 bash acme.sh --issue --standalone -d $domain --force
 bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
+sleep 5
+clear
+echo "Cert installation done.. Rebooting server in 3 second. . ."
+sleep 3
+reboot
