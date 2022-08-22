@@ -19,11 +19,3 @@ EOF
 ```
 wget https://raw.githubusercontent.com/solehpolysas/XRAY-WS/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
-
-```
-certv2ray
-```
-
-```
-restart-xray
-```
